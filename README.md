@@ -1,5 +1,12 @@
-cd project
-pip install -r requirements.txt
+# YoungEverest — Bike Sharing Demand (Midpoint)
 
-# run the script
-python src/train_baselines.py --data data/train.csv
+Reproduces baselines for **classification** (is_peak_hour) and **regression** (count) on the Kaggle Bike Sharing dataset.  
+Midpoint artifacts (4 plots + 2 tables) are written to `project/figures` and `project/tables`.
+
+## Dataset
+Kaggle: Bike Sharing Demand. Place `train.csv` under `project/data/`.  
+We remove `casual` and `registered` to avoid leakage (they sum to `count`).
+
+## Environment
+```bash
+pip install -r requirements.txt
