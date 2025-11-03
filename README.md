@@ -1,8 +1,8 @@
-# Bike-Sharing-Demand
-This is a machine learning project which can be used to predict bike sharing demand.
+# Bike Sharing Demand data
 
+Source: Kaggle – https://www.kaggle.com/competitions/bike-sharing-demand
 
-## Midpoint – How to Run
-```bash
-pip install -r requirements.txt
-python src/train_baselines.py --csv data/train.csv
+Place the hourly file as:
+- project/data/train.csv  (10886 rows × 12 cols)
+
+We remove `casual` and `registered` during preprocessing to avoid leakage.
