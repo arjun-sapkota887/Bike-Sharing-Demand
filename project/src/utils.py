@@ -1,17 +1,14 @@
 # src/utils.py
-import os, random, numpy as np
+import os
+import numpy as np
+import random
 
-SEED = 42
+def ensure_dirs():
+    """Make sure figures and tables directories exist."""
+    os.makedirs("figures", exist_ok=True)
+    os.makedirs("tables", exist_ok=True)
 
-def set_seeds(seed: int = SEED):
-    random.seed(seed)
+def set_seed(seed=42):
+    """Reproducibility."""
     np.random.seed(seed)
-    try:
-        import torch
-        torch.manual_seed(seed)
-    except Exception:
-        pass
-
-def ensure_dir(path: str):
-    os.makedirs(path, exist_ok=True)
-    return path
+    random.seed(seed)
