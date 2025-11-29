@@ -1,1 +1,21 @@
+# Raw dataset
+project/data/*.csv
 
+# MLflow artifacts (large)
+project/mlruns/
+
+# Notebook checkpoints
+**/.ipynb_checkpoints/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environments
+venv/
+.env/
+
+# Optional model artifacts
+project/models/*.pkl
+project/models/*.joblib
