@@ -13,6 +13,17 @@ No raw data files or MLflow artifacts are committed.
 
 ## ⚙️ Installation
 
+## Python Version
+
+This project is tested and reproducible on:
+
+**Python 3.10 or Python 3.11**
+
+Newer versions (e.g., Python 3.12 or 3.13) may cause dependency failures because 
+NumPy, scikit-learn, and MLflow do not yet fully support them.
+
+Please ensure you run the project in a Python 3.10/3.11 environment.
+
 From inside the `project/` folder:
 
 ```bash
