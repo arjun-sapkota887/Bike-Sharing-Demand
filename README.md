@@ -10,29 +10,6 @@ No raw data files or MLflow artifacts are committed.
 ---
 
 
-project/
-│
-├── data/
-│   ├── README.md               # download instructions (no raw CSVs stored)
-│
-│
-├── mlruns/                     # MLflow tracking directory (ignored in git)
-│
-├── notebooks/
-│   └── midpoint_notebook.ipynb # EDA only; not used for training
-│
-├── src/
-│   ├── data.py                 # loading, cleaning, splitting
-│   ├── features.py             # feature engineering and label creation
-│   ├── utils.py                # MLflow logger + helpers
-│   ├── train_baselines.py      # classical ML baselines
-│   ├── train_nn.py             # placeholder for final NN
-│   └── evaluate.py             # plots & evaluation
-│
-├── README.md                   # THIS file
-├── requirements.txt
-└── .gitignore
-
 ## 📁 Project Structure
 
 ## Environment
