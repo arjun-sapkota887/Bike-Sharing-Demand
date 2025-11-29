@@ -9,9 +9,6 @@ No raw data files or MLflow artifacts are committed.
 
 ---
 
-
-## 📁 Project Structure
-
 ## Environment
 
 ## ⚙️ Installation
