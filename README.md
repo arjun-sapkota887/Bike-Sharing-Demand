@@ -32,3 +32,5 @@ pip install -r requirements.txt
 to run baseline:
 python src/train_baselines.py
 mlflow ui
+then open:
+http://127.0.0.1:5000
