@@ -1,2 +1,3 @@
-The test.csv and train.csv files are in this same directory but you can also download those by going to the following link:
+Download the test.csv and train.csv files going to the following link:
 https://kaggle.com/competitions/bike-sharing-demand
+Go to the Data header and then download from there.
