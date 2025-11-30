@@ -34,3 +34,15 @@ python src/train_baselines.py
 mlflow ui
 then open:
 http://127.0.0.1:5000
+
+## Final Model
+
+To run the final neural network models:
+
+python3 src/train_nn.py
+
+This will:
+- preprocess the data using the same ColumnTransformer
+- train the tuned NN classifier and regressor
+- save models in models/
+- log metrics to MLflow
