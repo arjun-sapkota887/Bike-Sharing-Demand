@@ -44,3 +44,10 @@ This will:
 - train the tuned NN classifier and regressor
 - save models in models/
 - log metrics to MLflow
+
+AI Assistance Disclosure
+
+AI tools (ChatGPT) were used only for clarifying concepts and suggesting code structure.
+All preprocessing, feature engineering, model training, evaluation, and plotting were implemented manually by the authors.
+Final code and analysis reflect our own work and understanding.
+
