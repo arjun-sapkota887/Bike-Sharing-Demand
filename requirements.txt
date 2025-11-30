@@ -8,3 +8,7 @@ psutil==5.9.5
 pyyaml==6.0.1
 packaging==23.1
 protobuf==4.24.3
+
+# Neural Network + TensorFlow
+tensorflow-macos==2.15.0
+tensorflow-metal==1.1.0
