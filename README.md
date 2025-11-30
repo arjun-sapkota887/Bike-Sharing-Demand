@@ -3,8 +3,7 @@
 
 This repository contains all preprocessing, feature engineering, classical ML baselines, and MLflow tracking required to fully reproduce the midpoint results for the Bike Sharing Demand project (CS-4120 Machine Learning).
 
-All training logic is located inside the `src/` directory.  
-All EDA is inside `notebooks/`.  
+All training logic is located inside the `src/` directory.   
 No raw data files or MLflow artifacts are committed.
 
 ---
@@ -23,9 +22,10 @@ Newer versions (e.g., Python 3.12 or 3.13) may cause dependency failures because
 NumPy, scikit-learn, and MLflow do not yet fully support them.
 
 Please ensure you run the project in a Python 3.10/3.11 environment.
+I had python 3.13 on my device so i had to create a tf_env and activate the environment so i couls use python 3.10 and run the models.
 
-From inside the `project/` folder:
-
+ - clone the repo to your terminal
+ - go to Bike-Sharing-Demand folder
 ```bash
 pip install -r requirements.txt
 
@@ -34,8 +34,6 @@ python src/train_baselines.py
 mlflow ui
 then open:
 http://127.0.0.1:5000
-
-## Final Model
 
 To run the final neural network models:
 
